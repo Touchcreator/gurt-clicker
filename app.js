@@ -1,9 +1,8 @@
 const express = require("express");
 const app = express();
-const path = require("path")
+const path = require("path");
+const serverless = require("serverless-http");
 
 app.use(express.static(path.join(__dirname, "public")))
 
-app.listen(8888, () => {
-    console.log("hi");
-})
+exports.handler = serverless(app);
