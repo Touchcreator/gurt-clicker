@@ -79,6 +79,9 @@ function buy(itemName) {
             setDict("buildingcount", buildingCounts);
             
         }
+        else {
+            window.open("https://github.com/Touchcreator/gurt-thon", "_blank");
+        }
     }
     if (itemName == "touch") {
         if (storeCosts.touch <= clicks) {
@@ -90,6 +93,9 @@ function buy(itemName) {
             setDict("buildingcount", buildingCounts);
             
         }
+        else {
+            window.open("https://github.com/Touchcreator/gurt-thon", "_blank");
+        }
     }
     
     if (itemName == "clickrate") {
@@ -99,6 +105,9 @@ function buy(itemName) {
             storeCosts.clickrate = Math.round(storeCosts.clickrate * 1.03);
             document.querySelector("#clickrate-cost").innerText = currencySymbol + storeCosts.clickrate + "; " + clickRate + "ct";
             setItem("clickrate", clickRate);
+        }
+        else {
+            window.open("https://github.com/Touchcreator/gurt-thon", "_blank");
         }
     }
     
@@ -112,6 +121,9 @@ function buy(itemName) {
             setDict("buildingcount", buildingCounts);
             
         }
+        else {
+            window.open("https://github.com/Touchcreator/gurt-thon", "_blank");
+        }
     }
     
     if (itemName == "vanilla") {
@@ -124,6 +136,9 @@ function buy(itemName) {
             setDict("buildingcount", buildingCounts);
             
         }
+        else {
+            window.open("https://github.com/Touchcreator/gurt-thon", "_blank");
+        }
     }
     
     if (itemName == "strawberry") {
@@ -135,6 +150,9 @@ function buy(itemName) {
             setDict("storeinfo", storeCosts);
             setDict("buildingcount", buildingCounts);
             
+        }
+        else {
+            window.open("https://github.com/Touchcreator/gurt-thon", "_blank");
         }
     }
     
